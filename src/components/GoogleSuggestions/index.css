@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 30px;
+}
+.google-image {
+  width: 60%;
+  height: 200px;
+  margin: 40px;
+}
+.search-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 18px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+.input-card {
+  background-color: #ffffff;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.search {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.input-element {
+  outline: none;
+  border: none;
+  font-size: 18px;
+  padding-left: 10px;
+  width: 100%;
+}
+.list-items {
+  display: flex;
+  flex-direction: column;
+}

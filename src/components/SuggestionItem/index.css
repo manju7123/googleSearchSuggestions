@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.paragraph {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+.btn {
+  border: none;
+  background-color: transparent;
+  padding-left: 10px;
+}
+.image {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
